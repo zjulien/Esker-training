@@ -1,0 +1,2 @@
+﻿%%SB=新费用
+编号： %[CustomTag:Number]

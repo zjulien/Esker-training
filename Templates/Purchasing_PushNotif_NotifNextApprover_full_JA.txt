@@ -1,0 +1,5 @@
+﻿%%SB=新しい購買依頼
+申請者: %[RequesterName__]
+説明: %[/job/CustomNodes/ExternalVariables:GoodsSummary__]
+正味金額: %[Currency__] %[TotalNetAmount__|n]
+番号: %[RequisitionNumber__]

@@ -1,0 +1,2 @@
+﻿%%SB=New Invoice
+A new vendor invoice is waiting for your approval.

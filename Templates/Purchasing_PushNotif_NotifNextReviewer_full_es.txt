@@ -1,0 +1,5 @@
+﻿%%SB=%[TRAD_PRNOTIFNEXTREVIEVER_MESSAGE]
+Solicitante: %[RequesterName__]
+Descripción: %[/job/CustomNodes/ExternalVariables:GoodsSummary__]
+Importe neto: %[Currency__] %[TotalNetAmount__|n]
+Número: %[RequisitionNumber__]

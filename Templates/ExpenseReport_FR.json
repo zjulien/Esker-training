@@ -1,0 +1,28 @@
+﻿{
+	"language": {
+		"Amount": "Montant du justificatif",
+		"Billable": "Facturable",
+		"Currency": "Devise :",
+		"Description": "Description :",
+		"ExpenseCategory": "Type de dépense",
+		"ExpenseDate": "Date",
+		"ExpenseDescription": "Commentaire",
+		"ExpenseNumber": "N° dépense",
+		"ExpenseReport": "NOTE DE FRAIS",
+		"ExpenseReportNumber": "N° de note de frais :",
+		"ExpenseVendor": "Fournisseur",
+		"From": "Départ",
+		"LocalAmount": "Montant local",
+		"Distance": "Distance",
+		"NonRefundableAmount": "Montant non remboursable :",
+		"Refundable": "Remboursable",
+		"RefundableAmount": "Montant remboursable :",
+		"Requester": "Demandeur :",
+		"SubmissionDate": "Date de la demande :",
+		"To": "Destination",
+		"TotalAmount": "Montant total :",
+		"Type": "Type de note de frais :",
+		"UserNumber": "N° d'utilisateur",
+		"VehicleTypeName": "Type de véhicule"
+	}
+}

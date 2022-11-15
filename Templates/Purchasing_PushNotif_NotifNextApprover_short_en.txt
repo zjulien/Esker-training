@@ -1,0 +1,2 @@
+﻿%%SB=New Purchase Requisition
+A new purchase requisition is waiting for your approval.

@@ -1,0 +1,2 @@
+﻿%%SB=Neue Lieferantenrechnung
+eine neue Lieferantenrechnung wartet auf Ihre Genehmigung.

@@ -1,0 +1,4 @@
+﻿%%SB=Neuer Lieferantenvertrag
+Name des Lieferanten: %[CustomTag:VendorName__]
+Vertragsname: %[CustomTag:Name__]
+Besitzer: %[CustomTag:OwnerNiceName__]

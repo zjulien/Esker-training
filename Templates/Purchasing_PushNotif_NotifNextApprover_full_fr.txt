@@ -1,0 +1,5 @@
+﻿%%SB=Nouvelle demande d'achat
+Demandeur : %[RequesterName__]
+Description : %[/job/CustomNodes/ExternalVariables:GoodsSummary__]
+Montant HT : %[Currency__] %[TotalNetAmount__|n]
+Numéro : %[RequisitionNumber__]

@@ -1,0 +1,2 @@
+﻿%%SB=Nuova spesa
+Una nuova spesa è in attesa di essere completata.

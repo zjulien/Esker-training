@@ -1,0 +1,2 @@
+﻿%%SB=Nova despesa
+Número: %[CustomTag:Number]

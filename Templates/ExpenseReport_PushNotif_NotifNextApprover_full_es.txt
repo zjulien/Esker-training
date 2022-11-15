@@ -1,0 +1,5 @@
+﻿%%SB=Nuevo informe de gastos
+Solicitante: %[CustomTag:UserName__]
+Comentario: %[CustomTag:Description__]
+%[EXP_TRAD_NETAMOUNT] %[CustomTag:CC_Currency__] %[CustomTag:TotalAmount__|n]
+Número: %[CustomTag:ExpenseReportNumber__]

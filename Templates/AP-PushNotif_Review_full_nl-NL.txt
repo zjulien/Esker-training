@@ -1,0 +1,4 @@
+﻿%%SB=Nieuwe factuur
+Factuurnummer: %[CustomTag:InvoiceNumber]
+Naam leverancier: %[CustomTag:VendorName]
+Nettobedrag: %[CustomTag:InvoiceAmount] %[CustomTag:Currency]

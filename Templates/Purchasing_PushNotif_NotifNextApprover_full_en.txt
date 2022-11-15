@@ -1,0 +1,5 @@
+﻿%%SB=New Purchase Requisition
+Requester: %[RequesterName__]
+Description: %[/job/CustomNodes/ExternalVariables:GoodsSummary__]
+Net amount: %[Currency__] %[TotalNetAmount__|n]
+Number: %[RequisitionNumber__]

@@ -1,0 +1,2 @@
+﻿%%SB=Novo contrato do fornecedor
+Um novo contrato está aguardando sua aprovação.

@@ -1,0 +1,19 @@
+﻿{
+	"language": {
+		"RemittanceAdvice": "Remittance Advice",
+		"Payer": "Payer:",
+		"Payee": "Payee:",
+		"PaymentRef": "Payment ref.:",
+		"PaymentType": "Payment type:",
+		"PaymentDate": "Payment date:",
+		"TotalPaid": "Total paid:",
+		"Currency": "Currency:",
+		"DocumentNumber": "Our reference",
+		"InvoiceNumber": "Invoice number",
+		"InvoiceDate": "Invoice date",
+		"PaidAmount": "Paid amount",
+		"Total": "Total",
+		"IntroText": "Please find below the details of the invoice(s) corresponding to this payment:",
+		"SalutationText": "Should you have any questions about this remittance advice, please contact us.\n\nKind regards,"
+	}
+}

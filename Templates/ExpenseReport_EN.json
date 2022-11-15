@@ -1,0 +1,28 @@
+﻿{
+	"language": {
+		"Amount": "Receipt amount",
+		"Billable": "Billable",
+		"Currency": "Currency:",
+		"Description": "Description:",
+		"ExpenseCategory": "Expense type",
+		"ExpenseDate": "Date",
+		"ExpenseDescription": "Comment",
+		"ExpenseNumber": "Expense #",
+		"ExpenseReport": "EXPENSE REPORT",
+		"ExpenseReportNumber": "Expense report #:",
+		"ExpenseVendor": "Vendor",
+		"From": "Departure",
+		"LocalAmount": "Local amount",
+		"Distance": "Distance",
+		"NonRefundableAmount": "Non-reimbursable amount:",
+		"Refundable": "Reimbursable",
+		"RefundableAmount": "Reimbursable amount:",
+		"Requester": "Requester:",
+		"SubmissionDate": "Request date:",
+		"To": "Destination",
+		"TotalAmount": "Total amount:",
+		"Type": "Expense report type:",
+		"UserNumber": "User #:",
+		"VehicleTypeName": "Vehicle type"
+	}
+}

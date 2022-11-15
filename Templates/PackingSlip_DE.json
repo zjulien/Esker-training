@@ -1,0 +1,22 @@
+﻿{
+	"language": {
+		"DetailsDescription": "Beschreibung",
+		"DetailsOrderLineNumber": "Position",
+		"DetailsOrderNumber": "Bestellnr.",
+		"DetailsOrderQuantity": "Bestellmenge",
+		"DetailsShipQuantity": "Versandmenge",
+		"DetailsUnit": "Einheit",
+		"DetailsSection": "Details",
+		"DocumentNumber": "Lieferscheinr.",
+		"DocumentType": "Dokumenttyp",
+		"PackingSlipDocumentType": "Lieferschein",
+		"DraftStamp": "ENTWURF",
+		"ExpectedDeliveryDate": "Vsl. Lieferdatum",
+		"GeneralSection": "Allgemein",
+		"Page": "Seite ",
+		"ShippingDate": "Versanddatum",
+		"ShippingNote": "Vermerk zum Versand",
+		"ShipToContainer": "Empfänger",
+		"VendorContainer": "Lieferant"
+	}
+}

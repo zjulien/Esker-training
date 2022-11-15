@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<viewType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<navigateParamsString>origin=openExtendedProperties</navigateParamsString>
+	<headers>
+		<header name="CreditUsage__" behavior="Default" fromflexible="false" group="Customer" show-as-percentage="true">
+			<custom-styles>
+ 				<custom-style hasFlexibleAttributes="true" style-name="important urgent" ldapfilter="(CreditUsage__&gt;100)"/>
+ 			</custom-styles>
+		</header>
+	</headers>
+	<groups>
+		<group>Customer</group>
+	</groups>
+</viewType>

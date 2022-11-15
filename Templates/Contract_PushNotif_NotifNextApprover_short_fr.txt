@@ -1,0 +1,2 @@
+﻿%%SB=Nouveau contrat fournisseur
+Un nouveau contrat est en attente d'approbation.

@@ -1,0 +1,2 @@
+﻿%%SB=Nieuwe factuur
+Een nieuwe leveranciersfactuur wacht op uw goedkeuring.

@@ -1,0 +1,2 @@
+﻿%%SB=Neue Bestellanforderung
+eine neue Bestellanforderung wartet auf Ihre Genehmigung.

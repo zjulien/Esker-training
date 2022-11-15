@@ -1,0 +1,5 @@
+﻿%%SB=新报销单
+申请人： %[CustomTag:UserName__]
+说明： %[CustomTag:Description__]
+%[EXP_TRAD_NETAMOUNT] %[CustomTag:CC_Currency__] %[CustomTag:TotalAmount__|n]
+编号： %[CustomTag:ExpenseReportNumber__]

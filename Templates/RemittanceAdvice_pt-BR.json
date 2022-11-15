@@ -1,0 +1,19 @@
+﻿{
+	"language": {
+		"RemittanceAdvice": "Aviso de pagamento",
+		"Payer": "Pagador",
+		"Payee": "Beneficiário",
+		"PaymentRef": "Ref. de pagamento:",
+		"PaymentType": "Método de pagamento:",
+		"PaymentDate": "Data de pagamento:",
+		"TotalPaid": "Valor total pago:",
+		"Currency": "Moeda:",
+		"DocumentNumber": "N.º de fatura do fornecedor",
+		"InvoiceNumber": "N.º de fatura do cliente",
+		"InvoiceDate": "Data da fatura",
+		"PaidAmount": "Valor pago",
+		"Total": "Total",
+		"IntroText": "Em pagamento por:",
+		"SalutationText": "Por favor, não hesite em contatar-nos com qualquer dúvida."
+	}
+}

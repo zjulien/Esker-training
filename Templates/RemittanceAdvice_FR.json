@@ -1,0 +1,19 @@
+﻿{
+	"language": {
+		"RemittanceAdvice": "Avis de paiement",
+		"Payer": "Payeur :",
+		"Payee": "Bénéficiaire :",
+		"PaymentRef": "Réf. de paiement :",
+		"PaymentType": "Moyen de paiement :",
+		"PaymentDate": "Date de paiement :",
+		"TotalPaid": "Total payé :",
+		"Currency": "Devise :",
+		"DocumentNumber": "Notre référence",
+		"InvoiceNumber": "N° de facture",
+		"InvoiceDate": "Date de facture",
+		"PaidAmount": "Montant payé",
+		"Total": "Total",
+		"IntroText": "Veuillez trouver ci-dessous le détail de la ou des factures correspondant à ce paiement :",
+		"SalutationText": "N'hésitez pas à nous contacter pour toute question concernant cet avis de paiement.\n\nCordialement,"
+	}
+}

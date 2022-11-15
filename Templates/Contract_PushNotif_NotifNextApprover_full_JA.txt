@@ -1,0 +1,4 @@
+﻿%%SB=新しい仕入先契約
+仕入先名: %[CustomTag:VendorName__]
+契約名: %[CustomTag:Name__]
+所有者: %[CustomTag:OwnerNiceName__]

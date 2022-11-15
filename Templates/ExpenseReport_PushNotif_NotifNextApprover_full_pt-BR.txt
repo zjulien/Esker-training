@@ -1,0 +1,5 @@
+﻿%%SB=Novo relatório de despesas
+Pedido por: %[CustomTag:UserName__]
+Comentário: %[CustomTag:Description__]
+%[EXP_TRAD_NETAMOUNT] %[CustomTag:CC_Currency__] %[CustomTag:TotalAmount__|n]
+Número: %[CustomTag:ExpenseReportNumber__]

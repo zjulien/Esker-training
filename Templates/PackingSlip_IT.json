@@ -1,0 +1,22 @@
+﻿{
+	"language": {
+		"DetailsDescription": "Descrizione",
+		"DetailsOrderLineNumber": "Linea",
+		"DetailsOrderNumber": "N. ordine",
+		"DetailsOrderQuantity": "Qtà. ordinata",
+		"DetailsShipQuantity": "Qtà. spedita",
+		"DetailsUnit": "Unità",
+		"DetailsSection": "Dettagli",
+		"DocumentNumber": "N. bolla di consegna",
+		"DocumentType": "Tipo di documento",
+		"PackingSlipDocumentType": "Bolla di consegna",
+		"DraftStamp": "BOZZA",
+		"ExpectedDeliveryDate": "Data di consegna prevista",
+		"GeneralSection": "Generale",
+		"Page": "Pagina ",
+		"ShippingDate": "Data spedizione",
+		"ShippingNote": "Nota di spedizione",
+		"ShipToContainer": "Destinatario",
+		"VendorContainer": "Fornitore"
+	}
+}

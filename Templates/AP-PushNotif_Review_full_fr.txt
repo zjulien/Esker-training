@@ -1,0 +1,4 @@
+﻿%%SB=Nouvelle facture fournisseur
+Numéro de facture : %[CustomTag:InvoiceNumber]
+Nom du fournisseur : %[CustomTag:VendorName]
+Montant HT : %[CustomTag:InvoiceAmount] %[CustomTag:Currency]

@@ -1,0 +1,4 @@
+﻿%%SB=New vendor contract
+Vendor name: %[CustomTag:VendorName__]
+Contract name: %[CustomTag:Name__]
+Owner: %[CustomTag:OwnerNiceName__]

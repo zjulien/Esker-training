@@ -1,0 +1,5 @@
+﻿%%SB=Neuer Ausgabenbericht
+Anforderer: %[CustomTag:UserName__]
+Kommentar: %[CustomTag:Description__]
+%[EXP_TRAD_NETAMOUNT] %[CustomTag:CC_Currency__] %[CustomTag:TotalAmount__|n]
+Nummer: %[CustomTag:ExpenseReportNumber__]

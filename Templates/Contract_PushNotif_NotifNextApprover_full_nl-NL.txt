@@ -1,0 +1,4 @@
+﻿%%SB=Nieuw leverancierscontract
+Naam leverancier: %[CustomTag:VendorName__]
+Naam contract: %[CustomTag:Name__]
+Eigenaar: %[CustomTag:OwnerNiceName__]

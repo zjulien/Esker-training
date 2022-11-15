@@ -1,0 +1,22 @@
+﻿{
+	"language": {
+		"DetailsDescription": "説明",
+		"DetailsOrderLineNumber": "行",
+		"DetailsOrderNumber": "注文番号",
+		"DetailsOrderQuantity": "注文数量",
+		"DetailsShipQuantity": "出荷数量",
+		"DetailsUnit": "単位",
+		"DetailsSection": "詳細",
+		"DocumentNumber": "納品書番号",
+		"DocumentType": "ドキュメントタイプ",
+		"PackingSlipDocumentType": "納品書",
+		"DraftStamp": "ドラフト",
+		"ExpectedDeliveryDate": "納品予定日",
+		"GeneralSection": "全般",
+		"Page": "ページ ",
+		"ShippingDate": "出荷予定日",
+		"ShippingNote": "出荷の備考",
+		"ShipToContainer": "受領者",
+		"VendorContainer": "仕入先"
+	}
+}

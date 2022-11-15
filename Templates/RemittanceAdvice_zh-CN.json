@@ -1,0 +1,19 @@
+﻿{
+	"language": {
+		"RemittanceAdvice": "汇款通知",
+		"Payer": "支付人",
+		"Payee": "收款人",
+		"PaymentRef": "付款参考编号：",
+		"PaymentType": "支付方式：",
+		"PaymentDate": "支付日期：",
+		"TotalPaid": "付款总额：",
+		"Currency": "货币：",
+		"DocumentNumber": "我方参考编号",
+		"InvoiceNumber": "账单/发票编号",
+		"InvoiceDate": "账单/发票日期",
+		"PaidAmount": "付款金额",
+		"Total": "总计",
+		"IntroText": "以下为当前付款款项用以支付的账单/发票的详情：",
+		"SalutationText": "若对此汇款通知有任何疑问，请联系我们。\n\n致礼，"
+	}
+}

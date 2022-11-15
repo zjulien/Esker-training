@@ -1,0 +1,28 @@
+﻿{
+	"language": {
+		"Amount": "Importe justificante",
+		"Billable": "Facturable",
+		"Currency": "Divisa:",
+		"Description": "Descripción:",
+		"ExpenseCategory": "Tipo de gasto",
+		"ExpenseDate": "Fecha",
+		"ExpenseDescription": "Comentario",
+		"ExpenseNumber": "Gasto nº",
+		"ExpenseReport": "INFORME DE GASTOS",
+		"ExpenseReportNumber": "Informe de gastos  nº:",
+		"ExpenseVendor": "Proveedor",
+		"From": "Lugar de salida",
+		"LocalAmount": "Importe local",
+		"Distance": "Distancia",
+		"NonRefundableAmount": "Importe no reembolsable:",
+		"Refundable": "Reembolsable",
+		"RefundableAmount": "Importe reembolsable:",
+		"Requester": "Solicitante:",
+		"SubmissionDate": "Fecha de solicitud:",
+		"To": "Destino",
+		"TotalAmount": "Importe total:",
+		"Type": "Tipo de informe de gastos:",
+		"UserNumber": "Usuario nº:",
+		"VehicleTypeName": "Tipo de vehículo"
+	}
+}

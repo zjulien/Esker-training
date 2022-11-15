@@ -1,0 +1,28 @@
+﻿{
+	"language": {
+		"Amount": "領収書の金額",
+		"Billable": "請求可能",
+		"Currency": "通貨：",
+		"Description": "説明：",
+		"ExpenseCategory": "費用種別",
+		"ExpenseDate": "日付",
+		"ExpenseDescription": "コメント",
+		"ExpenseNumber": "費用番号",
+		"ExpenseReport": "費用レポート",
+		"ExpenseReportNumber": "費用レポート番号:",
+		"ExpenseVendor": "仕入先",
+		"From": "発信点",
+		"LocalAmount": "現地金額",
+		"Distance": "距離",
+		"NonRefundableAmount": "払戻不可能な金額:",
+		"Refundable": "払戻可能",
+		"RefundableAmount": "払戻可能な金額:",
+		"Requester": "申請者:",
+		"SubmissionDate": "リクエスト日:",
+		"To": "宛先",
+		"TotalAmount": "合計金額：",
+		"Type": "費用レポート種別：",
+		"UserNumber": "ユーザー番号：",
+		"VehicleTypeName": "車両種別"
+	}
+}

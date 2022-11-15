@@ -1,0 +1,2 @@
+﻿%%SB=Nouvelle note de frais
+Une nouvelle note de frais est en attente de votre approbation.

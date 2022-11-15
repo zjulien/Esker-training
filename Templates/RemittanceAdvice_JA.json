@@ -1,0 +1,19 @@
+﻿{
+	"language": {
+		"RemittanceAdvice": "送金通知",
+		"Payer": "支払人:",
+		"Payee": "受取人:",
+		"PaymentRef": "支払い参照：",
+		"PaymentType": "支払いタイプ:",
+		"PaymentDate": "支払日:",
+		"TotalPaid": "支払合計額：",
+		"Currency": "通貨：",
+		"DocumentNumber": "社内参照",
+		"InvoiceNumber": "請求書番号",
+		"InvoiceDate": "請求日付",
+		"PaidAmount": "支払金額",
+		"Total": "合計",
+		"IntroText": "下記でこの支払いに対応する請求書の詳細をご確認ください。",
+		"SalutationText": "この送金通知に関するご質問があれば、お問い合わせください。よろしくお願いいたします。"
+	}
+}

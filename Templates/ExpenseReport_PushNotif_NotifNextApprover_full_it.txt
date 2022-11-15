@@ -1,0 +1,5 @@
+﻿%%SB=Nuova nota spese
+Richiedente: %[CustomTag:UserName__]
+Commento: %[CustomTag:Description__]
+%[EXP_TRAD_NETAMOUNT] %[CustomTag:CC_Currency__] %[CustomTag:TotalAmount__|n]
+Numero: %[CustomTag:ExpenseReportNumber__]

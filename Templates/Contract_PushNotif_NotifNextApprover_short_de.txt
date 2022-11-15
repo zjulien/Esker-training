@@ -1,0 +1,2 @@
+﻿%%SB=Neuer Lieferantenvertrag
+ein neuer Vertrag wartet auf Ihre Genehmigung.

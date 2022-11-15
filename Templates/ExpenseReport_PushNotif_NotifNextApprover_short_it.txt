@@ -1,0 +1,2 @@
+﻿%%SB=Nuova nota spese
+una nuova nota spese è in attesa della tua approvazione.

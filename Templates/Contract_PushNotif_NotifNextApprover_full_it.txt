@@ -1,0 +1,4 @@
+﻿%%SB=Nuovo contratto fornitore
+Nome fornitore: %[CustomTag:VendorName__]
+Nome contratto: %[CustomTag:Name__]
+Proprietario: %[CustomTag:OwnerNiceName__]

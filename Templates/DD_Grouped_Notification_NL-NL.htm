@@ -1,0 +1,253 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Nieuwe documenten</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+		<!--
+		Body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: Black;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F2F2F2;
+}
+
+Img {
+	max-height: 40px;
+}
+
+TABLE.bodyTable {
+	width: 100%;
+	background-color: #F2F2F2;
+}
+
+TABLE.container {
+	width: 560px;
+	background-color: White;
+}
+TABLE.emailContainer {
+	width: 560px;
+	background-color: White;				
+}
+DIV.para {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+DIV.ErrorMessage {
+	color: Gray;
+	font-style: italic;
+	font-size: 12px;
+}
+#Header {
+	padding: 20px 20px 0px 20px;
+}
+
+TABLE.Header {
+	width: 100%;
+}
+
+TD.Header {
+	color: #4c5e6e;
+	font-size: 22px;
+	padding: 0px 0px 5px 3px;
+	background-color: #FFFFFF;
+	border-bottom: 3px dotted #e6eaeb;
+}
+
+TD.HeaderText {
+	color: #4c5e6e;
+	font-size: 22px;
+	vertical-align: bottom;
+}
+
+#Content {
+	padding: 20px;
+}
+
+TABLE.Content {
+	width: 100%;
+}
+
+TABLE.Content TD B {
+	font-weight: normal;
+	color: %[account.SkinColor];
+}
+
+TABLE.Content STRONG {
+	color: %[account.SkinColor];
+}
+
+TABLE.Content UL {
+	list-style-type: disk;
+	color: %[account.SkinColor];
+}
+
+TABLE.Content A {
+	color: %[account.SkinColor];
+	text-decoration: underline;
+}
+
+TABLE.Content A:hover {
+	color: %[account.SkinColor];
+}
+
+#Footer {
+	background-color: %[account.SkinColor];
+	padding: 5px 20px 5px 20px;
+}
+
+TD.Footer {
+	color: #FFFFFF;
+	font-size: 14px;
+	padding-left: 3px;
+	line-height: 16px;
+	vertical-align: baseline;
+}
+
+A.Footer {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+A.Footer:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.margin {
+	background-color: #F2F2F2;
+	height: 20px;
+}
+		table.list {
+	border-width: 0px;
+	border-collapse: collapse;
+	border-left: 0px none #FFF;
+	border-right: 0px none #FFF;
+	border-top: 2px solid #EDEFF0 !important;
+	border-bottom: 2px solid #EDEFF0 !important;
+	font-size: 12px;
+	width: 100%;
+}
+
+table.list thead, table.list tbody {
+	display: table-row-group;
+	vertical-align: middle;
+}
+
+table.list th {
+	background-color: #FFFFFF;
+	height: 30px;
+	text-align: left;
+	font-weight:normal;
+	color: #8996a0
+}
+
+table.list tr {
+	padding: 2px !important;
+	height: 30px;
+}
+
+table.list tr.odd {
+	background-color: #ebeef0 !important;
+}
+table.list tr.even {
+	background-color: #FFFFFF !important;
+}
+
+table.list td {
+	border: 1px solid white;
+	border-left: 0;
+	border-right: 0;
+	padding: 0px 2px 0px 2px;
+	height: 25px;
+	color: #51626f;
+}
+
+table.list td, table.list tr {
+	vertical-align: middle !important;
+	white-space: nowrap;
+}
+		-->
+	</style>
+</head>
+<body leftMargin="0" topMargin="0" MarginWidth="0" MarginHeight="0" id="Body">
+	<table border="0" cellspacing="0" cellpadding="0" class="bodyTable">
+		<tr>
+			<td>
+				<table class="container" border="0" cellspacing="0" cellpadding="0" align="center">
+					<!-- =============================================================================================== EN-TETE / Espace du haut -->
+					<tr class="margin">
+						<td></td>
+					</tr>
+					<!-- =============================================================================================== EN-TETE -->
+					<tr>
+						<td id="Header">
+							<table border="0" cellspacing="0" cellpadding="0" class="Header">
+								<tr>
+									<td class="Header">
+										<table border="0" cellspacing="0" cellpadding="0" style="width: 100%">
+											<tr>
+												<td style="padding-bottom:20px;">
+													<!-- img tag already added by AR package -->
+													%[CustomTag:logo]
+												</td>
+											</tr>
+											<tr>
+												<td class="HeaderText"><strong>Nieuwe documenten</strong></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!-- =============================================================================================== PRINCIPAL -->
+					<tr>
+						<td id="Content">
+							<table border="0" cellspacing="0" cellpadding="0" class="Content">
+								<tr>
+									<td>
+										<p>Hallo,</p>
+										<p>%[CustomTag:introSentence]</p>
+										%[CustomTag:welcomeInformations]
+										<hr />
+										<p><a href='%[CustomTag:portalUrl]'>Open al uw documenten online</a></p>
+										<p>
+											<table class="list">
+												<thead>
+												<th>Documenttype</th>
+												<th>Documentnummer</th>
+												<th></th>
+												</thead>
+												<tbody>
+													%[CustomTag:documentLines]
+												</tbody>
+											</table>
+										</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!-- =============================================================================================== PIED DE PAGE -->
+					<tr>
+						<td height="1" id="Footer">
+							%[SubFile:footer_DD_nl-NL.htm]
+						</td>
+					</tr>
+					<tr class="margin">
+						<td></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

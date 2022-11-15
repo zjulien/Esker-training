@@ -1,0 +1,28 @@
+﻿{
+	"language": {
+		"Amount": "Importo giustificativo",
+		"Billable": "Fatturabile",
+		"Currency": "Valuta:",
+		"Description": "Descrizione:",
+		"ExpenseCategory": "Tipo di spesa",
+		"ExpenseDate": "Data",
+		"ExpenseDescription": "Commento",
+		"ExpenseNumber": "Spesa n.",
+		"ExpenseReport": "NOTA SPESE",
+		"ExpenseReportNumber": "Nota spese n.:",
+		"ExpenseVendor": "Fornitore",
+		"From": "Partenza",
+		"LocalAmount": "Importo locale",
+		"Distance": "Distanza",
+		"NonRefundableAmount": "Importo non rimborsabile:",
+		"Refundable": "Rimborsabile",
+		"RefundableAmount": "Importo rimborsabile:",
+		"Requester": "Richiedente:",
+		"SubmissionDate": "Data richiesta:",
+		"To": "Destinazione",
+		"TotalAmount": "Importo totale:",
+		"Type": "Tipo di nota spese:",
+		"UserNumber": "Utente n.:",
+		"VehicleTypeName": "Tipo di veicolo"
+	}
+}

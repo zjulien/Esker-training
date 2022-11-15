@@ -1,0 +1,2 @@
+﻿%%SB=Neue Ausgabe
+Nummer: %[CustomTag:Number]

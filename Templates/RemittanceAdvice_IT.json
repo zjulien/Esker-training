@@ -1,0 +1,19 @@
+﻿{
+	"language": {
+		"RemittanceAdvice": "Avviso di pagamento",
+		"Payer": "Pagatore",
+		"Payee": "Beneficiario",
+		"PaymentRef": "Rif. pagamento:",
+		"PaymentType": "Metodo pagamento:",
+		"PaymentDate": "Data pagamento:",
+		"TotalPaid": "Totale pagato:",
+		"Currency": "Valuta:",
+		"DocumentNumber": "Nostro riferimento",
+		"InvoiceNumber": "N. fattura",
+		"InvoiceDate": "Data fattura",
+		"PaidAmount": "Importo pagato",
+		"Total": "Totale",
+		"IntroText": "Di seguito trovate i dettagli delle fatture corrispondenti a questo pagamento:",
+		"SalutationText": "Non esitate a contattarci per qualsiasi domanda.\n\nCordiali saluti,"
+	}
+}

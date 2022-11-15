@@ -1,0 +1,21 @@
+﻿{
+  "language": {
+    "DetailsDescription": "Beschrijving",
+    "DetailsOrderNumber": "Bestelnummer",
+    "DetailsOrderQuantity": "Aant. besteld",
+    "DetailsShipQuantity": "Aant. verzonden",
+    "DetailsUnit": "Eenheid",
+    "DetailsSection": "Details",
+    "DocumentNumber": "Nummer afleveringsbewijs",
+    "DocumentType": "Documenttype",
+    "PackingSlipDocumentType": "Afleveringsbewijs",
+    "DraftStamp": "ONTWERP",
+    "ExpectedDeliveryDate": "Geschatte leveringsdatum",
+    "GeneralSection": "Algemeen",
+    "Page": "Pagina ",
+    "ShippingDate": "Verzenddatum",
+    "ShippingNote": "Verzendbewijs",
+    "ShipToContainer": "Ontvanger",
+    "VendorContainer": "Leverancier"
+  }
+}

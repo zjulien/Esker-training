@@ -1,0 +1,2 @@
+﻿%%SB=Nuevo informe de gastos
+Hay un nuevo informe de gastos en espera de su aprobación.

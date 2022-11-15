@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>New message</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style type="text/css">
+			<!--
+			body{
+	position: static;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F2F2F2;
+}
+table
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: Black;
+	font-size: 14px;
+	border: 0px;
+	border-spacing: 0px;
+	padding: 0px;
+}
+td
+{
+	vertical-align: top;
+}
+table.Body
+{
+	width: 100%;
+	height: 100%;
+	background-color: #F2F2F2;
+}
+table.Page
+{
+	width: 560px;
+	margin: 0px auto;
+	height: 100%;
+	background-color: White;
+}
+
+/* Header */
+#Header
+{
+	padding: 20px 20px 0px 20px;
+}
+#HeaderLogo
+{
+	padding: 0px 0px 20px 0px;
+}
+#HeaderText
+{
+	color: #4c5e6e;
+	font-size: 22px;
+	padding: 0px 0px 5px 3px;
+	background-color: #FFFFFF;
+	border-bottom: 3px dotted #e6eaeb;
+}
+table.Header
+{
+	width: 100%;
+}
+
+/* Content */
+#Content
+{
+	padding: 20px;
+}
+table.Content
+{
+	width: 100%;
+}
+table.Content td
+{
+}
+table.Content td b
+{
+	font-weight: normal;
+	color: %[account.SkinColor];
+}
+table.Content p
+{
+}
+table.Content strong
+{
+	color: %[account.SkinColor];
+}
+table.Content ul
+{
+	list-style-type: disk;
+	color: %[account.SkinColor];
+}
+table.Content li
+{
+}
+table.Content a
+{
+	color: %[account.SkinColor];
+	text-decoration: underline;
+}
+table.Content a:hover
+{
+	color: %[account.SkinColor];
+}
+
+DIV.PreviousMessage {
+	color: black;
+	font-style: italic;
+	font-size: 12px;
+	background-color: #E0E2E5;
+}
+
+DIV.para {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+DIV.ErrorMessage {
+	color: Gray;
+	font-style: italic;
+	font-size: 12px;
+}
+
+DIV.AdditionalMessage
+{
+	margin: 0px;		
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: Black;
+	font-size: 14px;
+}
+
+/* Footer */
+#Footer
+{
+	background-color:%[account.SkinColor];
+	padding: 5px 20px 5px 20px;
+}
+table.Footer
+{
+}
+table.Footer td
+{
+	color: #FFFFFF;
+	font-size:14px;
+	padding-left:3px;
+	line-height: 16px;
+	vertical-align: baseline;
+}
+table.Footer a
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+table.Footer a:hover
+{
+	text-decoration: underline;
+}
+			-->
+		</style>
+	</head>
+	<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+		<table class="Body" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<table class="Page" align="center" border="0" cellspacing="0" cellpadding="0">
+						<!-- =============================================================================================== EN-TETE -->
+						<tr>
+							<td id="Header">
+								<table class="Header" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td id="HeaderLogo">
+											<img src="%[account.HtmlLogo]" alt="logo"/>
+										</td>
+									</tr>
+									<tr>
+										<td id="HeaderText">
+											<strong>New message</strong>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<!-- =============================================================================================== PRINCIPAL -->
+						<tr>
+							<td id="Content">
+								<table class="Content" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td>
+											<p>Hello,</p>
+											<p>You have a new message about an account statement.</p>
+
+											<div class="PreviousMessage">
+												%[If_CustomTag:HasMessageInfo__]
+												<div class="AdditionalMessage"><b>From:</b> %[CustomTag:MessageFrom__|crlf2br]</div>
+												<div class="AdditionalMessage"><b>Date:</b> %[CustomTag:MessageDate__|crlf2br]</div><br />
+												%[Endif]
+												<div class="AdditionalMessage">%[CustomTag:Message__|crlf2br]</div>
+											</div>
+											%[If_CustomTag:HasPreviousMessage__]
+											<p>Previous message:</p>
+											<div class="PreviousMessage">
+												<div class="AdditionalMessage"><b>From:</b> %[CustomTag:PreviousMessageFrom__|crlf2br]</div>
+												<div class="AdditionalMessage"><b>Date:</b> %[CustomTag:PreviousMessageDate__|crlf2br]</div><br />
+												<div class="AdditionalMessage">%[CustomTag:PreviousMessage__|crlf2br]</div>
+											</div>
+											%[Endif]
+											<p>You can respond to this message on the vendor statement form or reply directly to this email.</p>
+											<p><a href="%[CustomTag:VendorStatementUrl__]">Open the vendor statement form</a></p>
+											<p>Best regards,</p>
+											<p>The Supplier Service Department</p>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<!-- =============================================================================================== PIED DE PAGE -->
+						<tr>
+							<td id="Footer">
+								<table class="Footer" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td>&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<!-- =============================================================================================== -->
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

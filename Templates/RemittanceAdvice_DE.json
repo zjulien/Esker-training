@@ -1,0 +1,19 @@
+﻿{
+	"language": {
+		"RemittanceAdvice": "Zahlungsavis",
+		"Payer": "Zahler",
+		"Payee": "Zahlungsempfänger",
+		"PaymentRef": "Zahlungsref.:",
+		"PaymentType": "Zahlweg:",
+		"PaymentDate": "Zahlungsdatum:",
+		"TotalPaid": "Bezahlt gesamt:",
+		"Currency": "Währung:",
+		"DocumentNumber": "Unsere Referenz",
+		"InvoiceNumber": "Rechnungsnummer",
+		"InvoiceDate": "Rechnungsdatum",
+		"PaidAmount": "Zahlungsbetrag",
+		"Total": "Gesamt",
+		"IntroText": "Nachstehend finden Sie die Einzelheiten der Rechnungen, die dieser Zahlung entsprechen:",
+		"SalutationText": "Bei Rückfragen stehen wir Ihnen gerne zur Verfügung.\n\nMit freundlichen Grüßen,"
+	}
+}

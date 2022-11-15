@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Erinnerung vor Dokumentenablauf</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style type="text/css">
+			<!--
+			Body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: Black;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F2F2F2;
+}
+
+Img {
+	max-height: 40px;
+}
+
+TABLE.bodyTable {
+	width: 100%;
+	background-color: #F2F2F2;
+}
+
+TABLE.container {
+	width: 560px;
+	background-color: White;
+}
+TABLE.emailContainer {
+	width: 560px;
+	background-color: White;				
+}
+DIV.para {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+DIV.ErrorMessage {
+	color: Gray;
+	font-style: italic;
+	font-size: 12px;
+}
+#Header {
+	padding: 20px 20px 0px 20px;
+}
+
+TABLE.Header {
+	width: 100%;
+}
+
+TD.Header {
+	color: #4c5e6e;
+	font-size: 22px;
+	padding: 0px 0px 5px 3px;
+	background-color: #FFFFFF;
+	border-bottom: 3px dotted #e6eaeb;
+}
+
+TD.HeaderText {
+	color: #4c5e6e;
+	font-size: 22px;
+	vertical-align: bottom;
+}
+
+#Content {
+	padding: 20px;
+}
+
+TABLE.Content {
+	width: 100%;
+}
+
+TABLE.Content TD B {
+	font-weight: normal;
+	color: %[account.SkinColor];
+}
+
+TABLE.Content STRONG {
+	color: %[account.SkinColor];
+}
+
+TABLE.Content UL {
+	list-style-type: disk;
+	color: %[account.SkinColor];
+}
+
+TABLE.Content A {
+	color: %[account.SkinColor];
+	text-decoration: underline;
+}
+
+TABLE.Content A:hover {
+	color: %[account.SkinColor];
+}
+
+#Footer {
+	background-color: %[account.SkinColor];
+	padding: 5px 20px 5px 20px;
+}
+
+TD.Footer {
+	color: #FFFFFF;
+	font-size: 14px;
+	padding-left: 3px;
+	line-height: 16px;
+	vertical-align: baseline;
+}
+
+A.Footer {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+A.Footer:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.margin {
+	background-color: #F2F2F2;
+	height: 20px;
+}
+			-->
+		</style>
+	</head>
+	<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+		<table class="Body" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<table class="Page" align="center" border="0" cellspacing="0" cellpadding="0">
+						<!-- =============================================================================================== EN-TETE -->
+						<tr>
+							<td id="Header">
+								<table class="Header" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td id="HeaderLogo">
+											<img src="%[CustomTag:AccountLogo__]" alt="logo"/>
+										</td>
+									</tr>
+									<tr>
+										<td id="HeaderText">
+											<strong>Erinnerung vor Dokumentenablauf</strong>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<!-- =============================================================================================== PRINCIPAL -->
+						<tr>
+							<td id="Content">
+								<table class="Content" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td>
+											<p>Guten Tag,</p>
+											<p>wir möchten Sie darauf aufmerksam machen, dass folgendes Dokument bald abläuft:</p>
+											<table border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td style="color: #008996; padding-left: 30px;">&bull;<span style="color: #008996; padding-left: 5px">Dokumenttyp</span></td>
+													<td style="color: #008996; padding-left: 30px;"><span style="color: #008996; padding-left: 5px"></span> %[CustomTag:documentType]</td>
+												</tr>
+												<tr>
+													<td style="color: #008996; padding-left: 30px;">&bull;<span style="color: #008996; padding-left: 5px">Dateiname</span></td>
+													<td style="color: #008996; padding-left: 30px;"><span style="color: #008996; padding-left: 5px"> %[CustomTag:documentName]</span></td>
+												</tr>
+												<tr>
+													<td style="color: #008996; padding-left: 30px;">&bull;<span style="color: #008996; padding-left: 5px">Ablaufdatum</span></td>
+													<td style="color: #008996; padding-left: 30px;"><span style="color: #008996; padding-left: 5px">%[CustomTag:endOfValidity]</span></td>
+												</tr>
+											</table>
+
+											<p>Bitte laden Sie in Ihrem Registrierungs- und Update-Formular eine aktuelle Version dieses Dokuments hoch.</p>
+											<p><a href="%[CustomTag:portalURL]">Registrierungsformular  öffnen</a></p>
+											%[SubFile:signature_DD_de.htm]
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<!-- =============================================================================================== PIED DE PAGE -->
+						<tr>
+							<td id="Footer">
+								&nbsp;
+							</td>
+						</tr>
+						<!-- =============================================================================================== -->
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

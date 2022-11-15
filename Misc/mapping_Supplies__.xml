@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mappingDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<options>
+		<separator>,</separator>
+		<newLine />
+		<escape />
+		<hasHeader>true</hasHeader>
+		<comment />
+		<textQualifier>"</textQualifier>
+		<hasLastDelimiter>false</hasLastDelimiter>
+	</options>
+	<script>
+		<code><![CDATA[
+			var Tools = window.external;
+			var loginSuffix = "%[reference:creator:demosubstring]";
+
+			// Init function
+			function Init()
+			{
+			}
+
+			function GetBuyerLogin()
+			{
+				if(Tools.GetCsvColumnValue("BuyerLogin__") == "")
+				{
+					return Tools.GetCsvColumnValue("BuyerLogin__");
+				}
+				else
+				{
+					return Tools.GetCsvColumnValue("BuyerLogin__") + "." + loginSuffix;
+				}
+			}
+
+			function GetRecipientLogin()
+			{
+				if(Tools.GetCsvColumnValue("RecipientLogin__") == "")
+				{
+					return Tools.GetCsvColumnValue("RecipientLogin__");
+				}
+				else
+				{
+					return Tools.GetCsvColumnValue("RecipientLogin__") + "." + loginSuffix;
+				}
+			}
+			]]>
+		</code>
+		<eval onEachCsvLine="false">Init</eval>
+	</script>
+	<tableName>PurchasingSupply__</tableName>
+	<mappings>
+		<mapping fieldType="" countryColumnName="" countryColumnIndex="" key="true" country="" command="false">
+			<fieldInTable>SupplyID__</fieldInTable>
+			<fieldInFile defaultValue="">
+				<fieldNameInFile>SupplyID__</fieldNameInFile>
+			</fieldInFile>
+		</mapping>
+		<mapping fieldType="" countryColumnName="" countryColumnIndex="" key="" country="" command="false">
+			<fieldInTable>ParentSupplyID__</fieldInTable>
+			<fieldInFile defaultValue="">
+				<fieldNameInFile>ParentSupplyID__</fieldNameInFile>
+			</fieldInFile>
+		</mapping>
+		<mapping fieldType="" countryColumnName="" countryColumnIndex="" key="" country="" command="false">
+			<fieldInTable>Name__</fieldInTable>
+			<fieldInFile defaultValue="">
+				<fieldNameInFile>Name__</fieldNameInFile>
+			</fieldInFile>
+		</mapping>
+		<mapping fieldType="" countryColumnName="" countryColumnIndex="" key="" country="" command="false">
+			<fieldInTable>FullName__</fieldInTable>
+			<fieldInFile defaultValue="">
+				<fieldNameInFile>FullName__</fieldNameInFile>
+			</fieldInFile>
+		</mapping>
+		<mapping fieldType="" countryColumnName="" countryColumnIndex="" key="" country="" command="false">
+			<fieldInTable>Description__</fieldInTable>
+			<fieldInFile defaultValue="">
+				<fieldNameInFile>Description__</fieldNameInFile>
+			</fieldInFile>
+		</mapping>
+		<mapping fieldType="" countryColumnName="" countryColumnIndex="" key="" country="" command="false">
+			<evalScript>GetBuyerLogin</evalScript>
+			<fieldInTable>BuyerLogin__</fieldInTable>
+			<fieldInFile defaultValue="">
+				<fieldNameInFile>BuyerLogin__</fieldNameInFile>
+			</fieldInFile>
+		</mapping>
+		<mapping fieldType="" countryColumnName="" countryColumnIndex="" key="" country="" command="false">
+			<evalScript>GetRecipientLogin</evalScript>
+			<fieldInTable>RecipientLogin__</fieldInTable>
+			<fieldInFile defaultValue="">
+				<fieldNameInFile>RecipientLogin__</fieldNameInFile>
+			</fieldInFile>
+		</mapping>
+		<mapping fieldType="" countryColumnName="" countryColumnIndex="" key="true" country="" command="false">
+			<fieldInTable>CompanyCode__</fieldInTable>
+			<fieldInFile defaultValue="">
+				<fieldNameInFile>CompanyCode__</fieldNameInFile>
+			</fieldInFile>
+		</mapping>
+		<mapping fieldType="" countryColumnName="" countryColumnIndex="" key="" country="" command="false">
+			<fieldInTable>DefaultGLAccount__</fieldInTable>
+			<fieldInFile defaultValue="">
+				<fieldNameInFile>DefaultGLAccount__</fieldNameInFile>
+			</fieldInFile>
+		</mapping>
+		<mapping command="false">
+			<fieldInTable>NoGoodsReceipt__</fieldInTable>
+			<fieldInFile defaultValue="">
+				<fieldNameInFile>NoGoodsReceipt__</fieldNameInFile>
+			</fieldInFile>
+		</mapping>
+		<mapping command="false">
+			<fieldInTable>DefaultCostType__</fieldInTable>
+			<fieldInFile defaultValue="">
+				<fieldNameInFile>DefaultCostType__</fieldNameInFile>
+			</fieldInFile>
+		</mapping>
+	</mappings>
+</mappingDef>

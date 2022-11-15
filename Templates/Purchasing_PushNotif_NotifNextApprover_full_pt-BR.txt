@@ -1,0 +1,5 @@
+﻿%%SB=Nova requisição de compra
+Pedido por: %[RequesterName__]
+Descrição: %[/job/CustomNodes/ExternalVariables:GoodsSummary__]
+Valor líquido: %[Currency__] %[TotalNetAmount__|n]
+Número: %[RequisitionNumber__]

@@ -1,0 +1,2 @@
+﻿%%SB=Nueva solicitud de compra
+Hay una nueva solicitud de compra a la espera de aprobación.

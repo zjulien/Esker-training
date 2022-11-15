@@ -1,0 +1,22 @@
+﻿{
+	"language": {
+		"DetailsDescription": "Descripción",
+		"DetailsOrderLineNumber": "Línea",
+		"DetailsOrderNumber": "Núm. de pedido",
+		"DetailsOrderQuantity": "Cant. pedida",
+		"DetailsShipQuantity": "Cant. enviada",
+		"DetailsUnit": "Unidad",
+		"DetailsSection": "Detalles",
+		"DocumentNumber": "Núm. de albarán",
+		"DocumentType": "Tipo de documento",
+		"PackingSlipDocumentType": "Albarán de entrega",
+		"DraftStamp": "BORRADOR",
+		"ExpectedDeliveryDate": "Fecha de entrega estimada:",
+		"GeneralSection": "General",
+		"Page": "Página ",
+		"ShippingDate": "Fecha de envío",
+		"ShippingNote": "Comentario",
+		"ShipToContainer": "Destinatario",
+		"VendorContainer": "Proveedor"
+	}
+}

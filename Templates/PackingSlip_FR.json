@@ -1,0 +1,22 @@
+﻿{
+	"language": {
+		"DetailsDescription": "Description",
+		"DetailsOrderLineNumber": "Ligne",
+		"DetailsOrderNumber": "N° de commande",
+		"DetailsOrderQuantity": "Qté commandée",
+		"DetailsShipQuantity": "Qté expédiée",
+		"DetailsUnit": "Unité",
+		"DetailsSection": "Détails",
+		"DocumentNumber": "N° du bon de livraison",
+		"DocumentType": "Type de document",
+		"PackingSlipDocumentType": "Bon de livraison",
+		"DraftStamp": "BROUILLON",
+		"ExpectedDeliveryDate": "Date de livraison estimée",
+		"GeneralSection": "Général",
+		"Page": "Page ",
+		"ShippingDate": "Date d'expédition",
+		"ShippingNote": "Note de livraison",
+		"ShipToContainer": "Destinataire",
+		"VendorContainer": "Fournisseur"
+	}
+}

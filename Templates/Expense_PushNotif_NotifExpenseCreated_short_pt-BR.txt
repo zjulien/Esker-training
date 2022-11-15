@@ -1,0 +1,2 @@
+﻿%%SB=Nova despesa
+Uma nova despesa está aguardando preenchimento.

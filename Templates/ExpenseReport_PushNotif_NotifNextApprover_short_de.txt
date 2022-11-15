@@ -1,0 +1,2 @@
+﻿%%SB=Neuer Ausgabenbericht
+es wurde Ihnen ein neuer Ausgabenbericht zur Genehmigung übermittelt.

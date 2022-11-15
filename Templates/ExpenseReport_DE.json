@@ -1,0 +1,28 @@
+﻿{
+	"language": {
+		"Amount": "Belegbetrag",
+		"Billable": "Fakturierbar",
+		"Currency": "Währung:",
+		"Description": "Zweck:",
+		"ExpenseCategory": "Ausgabenart",
+		"ExpenseDate": "Datum",
+		"ExpenseDescription": "Kommentar",
+		"ExpenseNumber": "Ausgabe Nr.",
+		"ExpenseReport": "AUSGABENBERICHT",
+		"ExpenseReportNumber": "Ausgabenbericht Nr.:",
+		"ExpenseVendor": "Lieferant",
+		"From": "Startort",
+		"LocalAmount": "Lokaler Betrag",
+		"Distance": "Entfernung",
+		"NonRefundableAmount": "Nicht erstatteter Betrag:",
+		"Refundable": "Erstattungsfähig",
+		"RefundableAmount": "Erstattungsbetrag:",
+		"Requester": "Antragsteller:",
+		"SubmissionDate": "Antragsdatum:",
+		"To": "Zielort",
+		"TotalAmount": "Gesamtbetrag:",
+		"Type": "Ausgabenberichtstyp:",
+		"UserNumber": "Benutzer Nr.:",
+		"VehicleTypeName": "Fahrzeugtyp"
+	}
+}

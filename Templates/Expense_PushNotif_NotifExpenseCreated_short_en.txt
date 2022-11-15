@@ -1,0 +1,2 @@
+﻿%%SB=New expense
+A new expense is awaiting completion.

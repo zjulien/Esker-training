@@ -1,0 +1,4 @@
+﻿%%SB=Neue Lieferantenrechnung
+Rechnungsnummer: %[CustomTag:InvoiceNumber]
+Name des Lieferanten: %[CustomTag:VendorName]
+Nettobetrag: %[CustomTag:InvoiceAmount] %[CustomTag:Currency]

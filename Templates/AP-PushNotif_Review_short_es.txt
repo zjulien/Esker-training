@@ -1,0 +1,2 @@
+﻿%%SB=Nueva factura de proveedor
+Hay una nueva factura de proveedor a la espera de aprobación.

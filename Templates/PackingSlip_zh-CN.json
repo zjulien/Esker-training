@@ -1,0 +1,22 @@
+﻿{
+	"language": {
+		"DetailsDescription": "说明/描述",
+		"DetailsOrderLineNumber": "行",
+		"DetailsOrderNumber": "订单号",
+		"DetailsOrderQuantity": "订货数量",
+		"DetailsShipQuantity": "发货数量",
+		"DetailsUnit": "单位",
+		"DetailsSection": "详细信息",
+		"DocumentNumber": "交付单号",
+		"DocumentType": "文档类型",
+		"PackingSlipDocumentType": "交付单号",
+		"DraftStamp": "草稿",
+		"ExpectedDeliveryDate": "预计交付日期",
+		"GeneralSection": "一般信息",
+		"Page": "页码/页数：",
+		"ShippingDate": "发货日期",
+		"ShippingNote": "发货单",
+		"ShipToContainer": "收货人",
+		"VendorContainer": "供应商"
+	}
+}

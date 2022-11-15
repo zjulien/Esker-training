@@ -1,0 +1,4 @@
+﻿%%SB=新账单发票
+发票号： %[CustomTag:InvoiceNumber]
+供应商名称： %[CustomTag:VendorName]
+不含税金额： %[CustomTag:InvoiceAmount] %[CustomTag:Currency]

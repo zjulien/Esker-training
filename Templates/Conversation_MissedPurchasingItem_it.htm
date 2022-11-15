@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Nuova attività sull'ordine %[CustomTag:OrderNumber__]</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<!-- SKIN15 -->
+	<style type="text/css">
+		<!--
+		Body
+		{
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			color: Black;
+			font-size: 14px;
+			margin: 0px;
+			padding: 0px;
+		}
+		TABLE.bodyTable
+		{
+			width: 100%;
+			background-color: #F2F2F2;
+		}
+		TABLE.emailContainer
+		{
+			width: 560px;
+			background-color: White;				
+		}
+		#HeaderSpace
+		{
+			padding: 10px 10px 0px 10px
+		}
+		#Header
+		{
+			padding: 20px 20px 0px 20px;
+		}
+		TABLE.Header
+		{
+			width: 100%;
+		}
+		TD
+		{
+			font-size: 14px;
+		}
+		TD.Header
+		{
+			color: #4c5e6e;
+			font-size: 22px;
+			padding: 0px 0px 5px 3px;
+			background-color: #FFFFFF;
+			border-bottom: 3px dotted #e6eaeb;
+		}
+		TD.HeaderText
+		{
+			color: #4c5e6e;
+			font-size: 22px;
+			vertical-align: bottom;
+		}
+		#Content
+		{
+			padding: 20px;
+		}
+		TABLE.Content
+		{
+			width: 100%;
+		}
+		TABLE.Content TD
+		{
+		}
+		TABLE.Content TD B
+		{
+			font-weight: normal;
+			color: %[account.SkinColor];
+		}
+		TABLE.Content P
+		{
+		}
+		TABLE.Content STRONG
+		{
+			color: %[account.SkinColor];
+		}
+		TABLE.Content UL
+		{
+			list-style-type: disk;
+			color: %[account.SkinColor];
+		}
+		TABLE.Content LI
+		{
+		}
+		TABLE.Content A
+		{
+			color: %[account.SkinColor];
+			text-decoration: underline;
+		}
+		TABLE.Content A:hover
+		{
+			color: %[account.SkinColor];
+		}
+		#Footer
+		{
+			background-color:%[account.SkinColor];
+			padding: 10px 20px 10px 20px;
+		}
+		TABLE.Footer
+		{				
+		}
+		TD.Footer
+		{
+			color: #FFFFFF;		
+			font-size:14px;	
+			padding-left:3px;
+			line-height: 16px;
+			vertical-align: baseline;
+		}
+		A.Footer
+		{
+			font-size: 16px;
+			font-weight: bold;
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		A.Footer:hover
+		{
+			color: #FFFFFF;
+			text-decoration: underline;
+		}
+		DIV.para
+		{
+			display: block;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		-->
+	</style>
+
+	<style type="text/css">
+		<!--
+		DIV.AdditionalMessage
+		{
+			margin: 0px;
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			color: Black;
+			font-size: 14px;
+		}
+		-->
+	</style>
+
+	</head>
+	<!-- =============================================================================================== -->
+	<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+		<table border="0" cellspacing="0" cellpadding="0" class="bodyTable">
+			<tr>
+				<td>
+					<table class="emailContainer" border="0" cellspacing="0" cellpadding="0" align="center">
+						<!-- =============================================================================================== EN-TETE / Espace du haut -->
+						<tr style="background-color: #F2F2F2; height: 20px">
+							<td></td>
+						</tr>
+						<!-- =============================================================================================== EN-TETE / titre du message -->
+						<tr>
+							<td id="Header">
+								<table border="0" cellspacing="0" cellpadding="0" class="Header">
+									<tr>
+										<td class="Header">
+											<table border="0" cellspacing="0" cellpadding="0" style="width: 100%">
+												<tr>
+													<td class="HeaderText" style="font-size: 22px;"><strong>Aggiornamento stato da %[CustomTag:FromName]</strong></td>
+													<td style="text-align: right"><img src="%[account.HtmlLogo]" style="max-height: 40px" /></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<!-- =============================================================================================== PRINCIPAL -->
+						<tr>
+							<td id="Content">
+								<table border="0" cellspacing="0" cellpadding="0" class="Content">
+									<tr>
+										<td>
+											<div class="para">%[CustomTag:FromName] ha appena inviato un nuovo messaggio relativo all'ordine %[CustomTag:OrderNumber__]:</div>
+											<table cellpadding="15" cellspacing="0" style="width: 100%">
+												<tr>
+													<td style="background-color: #E0E2E5;">
+														<div class="AdditionalMessage">%[CustomTag:Message__|crlf2br]</div>
+													</td>
+												</tr>
+											</table>
+											<div class="para"><a href="%[CustomTag:URLToProcess__]">Visualizza l'ordine</a></div>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<!-- =============================================================================================== PIED DE PAGE -->
+						<tr class="Footer" style="background-color: %[account.SkinColor]; height: 20px;">
+							<td></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+<!-- InstanceEnd -->
+</html>

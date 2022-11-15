@@ -1,0 +1,22 @@
+﻿{
+	"language": {
+		"DetailsDescription": "Description",
+		"DetailsOrderLineNumber": "Line",
+		"DetailsOrderNumber": "Order number",
+		"DetailsOrderQuantity": "Ordered qty",
+		"DetailsShipQuantity": "Shipped qty",
+		"DetailsUnit": "Unit",
+		"DetailsSection": "Details",
+		"DocumentNumber": "Delivery note number",
+		"DocumentType": "Document type",
+		"PackingSlipDocumentType": "Delivery note",
+		"DraftStamp": "DRAFT",
+		"ExpectedDeliveryDate": "Estimated delivery date",
+		"GeneralSection": "General",
+		"Page": "Page ",
+		"ShippingDate": "Shipping date",
+		"ShippingNote": "Ship note",
+		"ShipToContainer": "Recipient",
+		"VendorContainer": "Vendor"
+	}
+}

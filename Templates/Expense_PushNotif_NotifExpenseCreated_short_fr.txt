@@ -1,0 +1,2 @@
+﻿%%SB=Nouvelle dépense
+Une nouvelle dépense est en attente de finalisation.

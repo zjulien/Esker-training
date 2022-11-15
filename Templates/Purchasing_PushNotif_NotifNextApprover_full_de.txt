@@ -1,0 +1,5 @@
+﻿%%SB=Neue Bestellanforderung
+Anforderer: %[RequesterName__]
+Beschreibung: %[/job/CustomNodes/ExternalVariables:GoodsSummary__]
+Nettobetrag: %[Currency__] %[TotalNetAmount__|n]
+Nummer: %[RequisitionNumber__]

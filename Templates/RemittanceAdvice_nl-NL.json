@@ -1,0 +1,19 @@
+﻿{
+  "language": {
+    "RemittanceAdvice": "Betaalbevestiging",
+    "Payer": "Betaler:",
+    "Payee": "Betaald aan:",
+    "PaymentRef": "Betaalref.:",
+    "PaymentType": "Betaalwijze:",
+    "PaymentDate": "Betaaldatum:",
+    "TotalPaid": "Totaal betaald:",
+    "Currency": "Valuta:",
+    "DocumentNumber": "Onze referentie",
+    "InvoiceNumber": "Factuurnummer",
+    "InvoiceDate": "Factuurdatum",
+    "PaidAmount": "Betaald bedrag",
+    "Total": "Totaal",
+    "IntroText": "Hieronder vindt u meer informatie over de overeenkomstige factu(u)r(en) bij deze betaling:",
+    "SalutationText": "Neem contact met ons op als u vragen hebt over deze betaalbevestiging.\n\nMet vriendelijke groeten,"
+  }
+}

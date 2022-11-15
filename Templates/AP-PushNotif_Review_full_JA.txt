@@ -1,0 +1,4 @@
+﻿%%SB=新しい請求書
+請求書番号: %[CustomTag:InvoiceNumber]
+仕入先名: %[CustomTag:VendorName]
+正味金額: %[CustomTag:InvoiceAmount] %[CustomTag:Currency]

@@ -1,0 +1,5 @@
+﻿%%SB=Nieuwe inkoopvordering
+Aanvrager: %[RequesterName__]
+Beschrijving: %[/job/CustomNodes/ExternalVariables:GoodsSummary__]
+Nettobedrag: %[Currency__] %[TotalNetAmount__|n]
+Nummer: %[RequisitionNumber__]

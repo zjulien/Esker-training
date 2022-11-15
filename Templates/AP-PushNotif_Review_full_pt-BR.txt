@@ -1,0 +1,4 @@
+﻿%%SB=Nova fatura
+Número da fatura: %[CustomTag:InvoiceNumber]
+Nome do fornecedor: %[CustomTag:VendorName]
+Valor líquido: %[CustomTag:InvoiceAmount] %[CustomTag:Currency]

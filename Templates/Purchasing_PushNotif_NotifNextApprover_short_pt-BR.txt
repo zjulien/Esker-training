@@ -1,0 +1,2 @@
+﻿%%SB=Nova requisição de compra
+Uma nova requisição de compra está aguardando sua aprovação.

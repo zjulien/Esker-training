@@ -1,0 +1,2 @@
+﻿%%SB=New expense report
+A new expense report is waiting for your approval.

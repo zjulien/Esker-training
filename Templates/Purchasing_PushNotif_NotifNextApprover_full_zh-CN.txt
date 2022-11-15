@@ -1,0 +1,5 @@
+﻿%%SB=新请购单
+请购人： %[RequesterName__]
+商品描述： %[/job/CustomNodes/ExternalVariables:GoodsSummary__]
+不含税金额： %[Currency__] %[TotalNetAmount__|n]
+单号： %[RequisitionNumber__]

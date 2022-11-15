@@ -1,0 +1,19 @@
+﻿{
+	"language": {
+		"RemittanceAdvice": "Aviso de pago",
+		"Payer": "Pagador:",
+		"Payee": "Beneficiario:",
+		"PaymentRef": "Ref. de pago:",
+		"PaymentType": "Forma de pago:",
+		"PaymentDate": "Fecha de pago:",
+		"TotalPaid": "Total pagado:",
+		"Currency": "Divisa:",
+		"DocumentNumber": "Nuestra referencia",
+		"InvoiceNumber": "N° de factura",
+		"InvoiceDate": "Fecha de factura",
+		"PaidAmount": "Importe pagado",
+		"Total": "Total",
+		"IntroText": "A continuación se encuentran los detalles de la(s) factura(s) que corresponden a este pago:",
+		"SalutationText": "No dude en ponerse en contacto con nosotros si tiene alguna pregunta sobre este aviso de pago.\n\nSaludos cordiales,"
+	}
+}

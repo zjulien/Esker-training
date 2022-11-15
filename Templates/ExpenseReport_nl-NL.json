@@ -1,0 +1,28 @@
+﻿{
+  "language": {
+    "Amount": "Bedrag ontvangstbewijs",
+    "Billable": "Te factureren",
+    "Currency": "Valuta:",
+    "Description": "Beschrijving:",
+    "ExpenseCategory": "Type uitgaven",
+    "ExpenseDate": "Datum",
+    "ExpenseDescription": "Opmerking",
+    "ExpenseNumber": "Uitgavenr.",
+    "ExpenseReport": "UITGAVENSTAAT",
+    "ExpenseReportNumber": "Uitgavenstaat nr.:",
+    "ExpenseVendor": "Leverancier",
+    "From": "Vertrek",
+    "LocalAmount": "Lokaal bedrag",
+    "Distance": "Afstand",
+    "NonRefundableAmount": "Niet-terugbetaalbaar bedrag:",
+    "Refundable": "Terugbetaalbaar",
+    "RefundableAmount": "Terugbetaalbaar bedrag:",
+    "Requester": "Aanvrager:",
+    "SubmissionDate": "Datum verzoek:",
+    "To": "Bestemming",
+    "TotalAmount": "Totaalbedrag:",
+    "Type": "Type uitgavenstaat:",
+    "UserNumber": "Gebruikersnr.:",
+    "VehicleTypeName": "Voertuigtype"
+  }
+}

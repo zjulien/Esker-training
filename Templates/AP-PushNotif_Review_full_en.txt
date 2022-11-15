@@ -1,0 +1,4 @@
+﻿%%SB=New Invoice
+Invoice number: %[CustomTag:InvoiceNumber]
+Vendor name: %[CustomTag:VendorName]
+Net amount: %[CustomTag:InvoiceAmount] %[CustomTag:Currency]

@@ -1,0 +1,22 @@
+﻿{
+	"language": {
+		"DetailsDescription": "Descrição",
+		"DetailsOrderLineNumber": "Linha",
+		"DetailsOrderNumber": "Número de pedido",
+		"DetailsOrderQuantity": "Quantidade pedida",
+		"DetailsShipQuantity": "Quantidade enviada",
+		"DetailsUnit": "Unidade",
+		"DetailsSection": "Detalhes",
+		"DocumentNumber": "Número da nota de entrega",
+		"DocumentType": "Tipo de documento",
+		"PackingSlipDocumentType": "Nota de entrega",
+		"DraftStamp": "RASCUNHO",
+		"ExpectedDeliveryDate": "Data de entrega estimada",
+		"GeneralSection": "Geral",
+		"Page": "Página ",
+		"ShippingDate": "Data de remessa",
+		"ShippingNote": "Nota de embarque",
+		"ShipToContainer": "Destinatário",
+		"VendorContainer": "Fornecedor"
+	}
+}
