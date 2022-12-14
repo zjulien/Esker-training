@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TranslateCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" frozen="false">
+	<items>
+		<TranslateItem>
+			<key>_Invoice pending approval</key>
+			<val>Invoice pending approval</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoices pending approval</key>
+			<val>Invoices pending approval</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Vendor registration pending approval</key>
+			<val>Vendor registration pending approval</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Vendor registrations pending approval</key>
+			<val>Vendor registrations pending approval</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Esker Accounts payable</key>
+			<val>Esker Accounts Payable</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Esker Vendor management</key>
+			<val>Esker Vendor Management</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Reminders for payment approval</key>
+			<val>P2P - Automatic approval reminders</val>
+		</TranslateItem>
+	</items>
+</TranslateCollection>

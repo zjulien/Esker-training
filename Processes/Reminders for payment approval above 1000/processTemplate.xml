@@ -1,0 +1,89 @@
+﻿<process accountid="" allowrepairprocess="0" builtin="0" builtinversion="0" carriesapplicationversion="0" creationdatetime="2022-10-25 17:05:40" deleted="0" eskerapplication="" global="0" id="NoID" keepcustomization="0" keepfieldsonly="0" keepfieldsproperties="0" keepnewcontroloptions="0" migrationversion="4" name="Reminders for payment approval above 1000" needvalidation="0" ootofilter="" ootoversion="0" originalProcessID="QGUQ15073" ownerid="" ownerpb="" public="1" pushnotification="0" reuseengine="0" sprintversion="5.261.0" transportname="CustomData" upgradable="0" userid="" version="24" visibility="0">
+	<properties>
+		<dataConditions>
+			<listDataConditions>
+			&lt;dataCondition&gt;
+				&lt;tableName&gt;P2P - Global Application Settings__&lt;/tableName&gt;
+				&lt;filter&gt;msnex=*&lt;/filter&gt;
+				&lt;labelKey&gt;_AP disabled&lt;/labelKey&gt;
+				&lt;conditions&gt;
+					&lt;allowCondition&gt;
+						&lt;fieldName&gt;EnableAccountPayableGlobalSetting__&lt;/fieldName&gt;
+						&lt;fieldValue&gt;1&lt;/fieldValue&gt;
+					&lt;/allowCondition&gt;
+				&lt;/conditions&gt;
+			&lt;/dataCondition&gt;
+		</listDataConditions>
+		</dataConditions>
+		<gdr>
+			<FinalizationScriptAllowRetry />
+			<FinalizationScript>
+				<!--finalizationscript.js--></FinalizationScript>
+			<ValidationScriptAllowRetry />
+			<ValidationScript>
+				<!--validationscript.js--></ValidationScript>
+			<AllowTagCoverPages>true</AllowTagCoverPages>
+			<AllowTagNewDocuments>true</AllowTagNewDocuments>
+			<AllowTagAttachments>true</AllowTagAttachments>
+			<ExtractionScriptAllowRetry />
+			<extractionscriptIncludedScripts>Sys/Sys_Helpers_Attach</extractionscriptIncludedScripts>
+			<extractionscriptIncludedScripts>Sys/Sys_EmailNotification</extractionscriptIncludedScripts>
+			<extractionscriptIncludedScripts>Lib_Parameters_P2P_V12.0.461.0</extractionscriptIncludedScripts>
+			<extractionscriptIncludedScripts>[Lib_Custom_Parameters]</extractionscriptIncludedScripts>
+			<extractionscriptIncludedScripts>[Lib_P2P_Custom_Parameters]</extractionscriptIncludedScripts>
+			<ExtractionScript>
+				<!--extractionscript.js--></ExtractionScript>
+			<ExtractionScriptRunOnOCRFailed />
+			<AllowRemovePages>true</AllowRemovePages>
+			<AllowSwapPages>true</AllowSwapPages>
+			<PostProcessingScriptAllowRetry />
+			<PostProcessingScript>
+				<!--postprocessingscript.js--></PostProcessingScript>
+		</gdr>
+		<lg>
+			<!--*.xml-->
+		</lg>
+		<ocr>
+			<trade-off>accurate</trade-off>
+			<image-ocr-timeout />
+			<image-binarization>no</image-binarization>
+			<image-draft-fax>no</image-draft-fax>
+			<image-despeckle>no</image-despeckle>
+			<allowed-language>0</allowed-language>
+			<image-resolution-enhancement>auto</image-resolution-enhancement>
+			<ocr_engine>Nuance190</ocr_engine>
+			<extractionAdditionalOptions />
+		</ocr>
+		<process>
+			<flowtype>processing</flowtype>
+			<ocrpreset>scan</ocrpreset>
+			<homepagelabel>AP - Reminders for payment approval</homepagelabel>
+			<enableflexibleauditing />
+			<enableflexibleediting />
+			<enableflexibleteaching />
+			<upgradable>yes</upgradable>
+			<disableocr />
+			<instanciable>1</instanciable>
+			<disableautolearning>true</disableautolearning>
+			<backgroundprocessingthreshold />
+			<EnablePreviewPrecomputation />
+			<pdfNormalizeFilter />
+			<archiveDuration>0</archiveDuration>
+			<ocrpagestoprocess />
+			<ScriptEngineType>2</ScriptEngineType>
+			<displayWidth />
+			<AllowUploadAttachment>1</AllowUploadAttachment>
+			<AllowUploadReferenceDocument>1</AllowUploadReferenceDocument>
+			<UseCultureFormat>true</UseCultureFormat>
+			<AllowRetryExtractCD>true</AllowRetryExtractCD>
+			<TransportName>CustomData</TransportName>
+			<LayoutVersion>1.0</LayoutVersion>
+			<printToProcess />
+		</process>
+		<ui>
+			<layout>
+				<!--layout.json--></layout>
+		</ui>
+	</properties>
+	<type id="NoID" name="CD" />
+</process>
